@@ -25,10 +25,7 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 	
 	<script>
-// Measures product impressions and also tracks a standard
-// pageview for the tag configuration.
-// Product impressions are sent by pushing an impressions object
-// containing one or more impressionFieldObjects.
+window.dataLayer = window.dataLayer || [];
 dataLayer.push({
   'ecommerce': {
     'currencyCode': 'EUR',                       // Local currency is optional.
@@ -56,7 +53,9 @@ dataLayer.push({
   }
 });
 </script>
-	<script type="text/javascript">
+	
+	
+<script type="text/javascript">
 window.digitalData = {
   "page": {
     "pageInfo": {
